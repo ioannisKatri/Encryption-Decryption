@@ -17,12 +17,12 @@ A simple app for Encrypting and Decrypting Text
 ### Two algorithms are provided -> unicode, shift
 
 - If No algorithm is specified it will use shift.
--alg unicode
+  -alg unicode
 
 
--key command it will shift each letter by the specified number according to its order in the alphabet.
-(max 23)
- -key 5
+- key command will shift each letter by the specified number according to its order in the alphabet.
+
+ -key 5 (max 23)
 
 
 - Can be used without -in and -out, just by adding text using -->  -data.
